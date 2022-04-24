@@ -1,0 +1,3 @@
+<launch>
+	<node name="speed_publisher_node1" pkg="pruebEx" type="speed_pub" />
+</launch>

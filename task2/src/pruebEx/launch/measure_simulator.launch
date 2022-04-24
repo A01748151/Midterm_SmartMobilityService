@@ -1,0 +1,7 @@
+<launch>
+	<param name="speed_limit" value="80" type="double"/>
+	
+	<node name="speed_publisher_node1" pkg="pruebEx" type="speed_pub" />
+	
+	<node name="speed_measure_node1" pkg="pruebEx" type="speed_measure" />
+</launch>
